@@ -1,0 +1,82 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #2a272a,#616b6f);
+}
+.imgLogo{
+  width: 10%;
+  border-radius: 50%;
+}
+.App{
+  margin-top: 2%;
+}
+.header{
+  display: flex;
+}
+.contact,.about,.logout{
+  margin-left: 5%;
+}
+.mainImg{
+  width: 100%;
+  height: 50vh;
+  border-radius: .5em;
+  margin-left: 7%;
+}
+.qout{
+  margin-top: 10%;
+  font-size:xx-large;
+  animation: mars infinite ease-in-out 0 ;
+}
+.cont{
+  display: flex;
+}
+.data{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@keyframes mars{
+  0%{
+    transform: translate(-30px)
+  }
+  20%{
+    transform: translate(-40deg);
+  }
+  60%{
+    transform: translate(-40deg);
+  }
+  100%{
+    transform: translate(30deg);
+  }
+}
+.spax{
+  background-color: white;
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding: 1em;
+  border-radius: .3em;
+  box-shadow:2px 2px 2px gray;
+}
+.inp{
+  width: 60%;
+  margin-left: 1%;
+}
+.field{
+  width: 100%;
+  height: 45px;
+  border-radius: .5em;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+button{
+  background-color: blue;
+  border: none;
+  border-radius: .3em;
+  color: white;
+}
+button:hover{
+  opacity: .5;
+}
